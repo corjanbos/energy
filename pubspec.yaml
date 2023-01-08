@@ -38,6 +38,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   syncfusion_flutter_gauges: ^20.4.38
   socket_io_client: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  riverpod: ^2.1.3
+  flutter_riverpod: ^2.1.3
+  logging: ^1.0.2
+  shared_preferences: ^2.0.15
+  dio: ^4.0.6
 
 
 dev_dependencies:
@@ -92,3 +98,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/energy.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/background.jpg"
+    background_color: "#000000"
+    theme_color: "#000099"
